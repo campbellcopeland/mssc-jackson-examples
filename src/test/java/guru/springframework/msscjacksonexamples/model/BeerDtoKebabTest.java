@@ -10,7 +10,7 @@ import org.springframework.test.context.ActiveProfiles;
 public class BeerDtoKebabTest extends BaseTest{
 
     @Test
-    void testSnake() throws JsonProcessingException {
+    void testKebab() throws JsonProcessingException {
         BeerDto dto = getDto();
 
         String json = objectMapper.writeValueAsString(dto);
